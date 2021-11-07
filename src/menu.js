@@ -1,3 +1,9 @@
+import porkChop from "./porkChop.jpg";
+import steakBenedict from "./steakBenedict.jpg";
+import countrySandwitch from "./countrySandwitch.jpg";
+import veggies from "./veggies.jpeg";
+import panckakes from "./panckakes.jpg";
+
 // menu page
 
 function newMenuCard(
@@ -50,35 +56,35 @@ function generateMenu() {
   newMenuCard(
     "1. Pork Chop",
     "Simple slice of meat aroused with amazlingly crunchy bread coating!",
-    "/src/porkChop.jpg",
+    porkChop,
     "$12"
   );
 
   newMenuCard(
     "2. Steak Benedict",
     "Poached egg, steak, bell pepper, hollandaise, side of potatoes!",
-    "/src/steakBenedict.jpg",
+    steakBenedict,
     "$16"
   );
 
   newMenuCard(
     "3. Country Sandwich",
     "NY strip, bacon, parmesan cheese sauce, mesclun, egg!",
-    "/src/countrySandwitch.jpg",
+    countrySandwitch,
     "$18"
   );
 
   newMenuCard(
     "4. Veggie Skillet",
     "potatoes, sautéed veggies, cheese, served with choice of toast or pancakes (egg $2, shrimp $3, steak $4, crab $6, lobster $9)!",
-    "/src/veggies.jpeg",
+    veggies,
     "$16"
   );
 
   newMenuCard(
     "5. Pancakes (7)",
     "Buttermilk pancakes, whipped butter, maple syrup!",
-    "/src/panckakes.jpg",
+    panckakes,
     "$13"
   );
 }

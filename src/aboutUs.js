@@ -1,5 +1,6 @@
-// about us page
+import mapsPhoto from "./maps.png";
 
+// about us page
 function generateAboutUs() {
   const switchableContent = document.querySelector(".switchable-content");
 
@@ -16,7 +17,7 @@ function generateAboutUs() {
   location.innerHTML = "🏠 Sezamkowa 29 Street, Warsaw";
 
   const imgMaps = document.createElement("img");
-  imgMaps.src = "/src/maps.png";
+  imgMaps.src = mapsPhoto;
 
   about.appendChild(telephone);
   about.appendChild(location);

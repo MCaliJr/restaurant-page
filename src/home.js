@@ -1,4 +1,5 @@
 import { generateMenu } from "./menu";
+import foodForHome from "./foodForHome.jpg";
 
 // home page
 function generateHomePage() {
@@ -11,7 +12,7 @@ function generateHomePage() {
 
   const imgHome = document.createElement("img");
   imgHome.classList.add("photo-home");
-  imgHome.src = "/src/foodForHome.jpg";
+  imgHome.src = foodForHome;
 
   const h4TextOne = document.createElement("h4");
   h4TextOne.innerHTML = "Made with magic since 2001";
